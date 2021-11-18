@@ -1,0 +1,10 @@
+<!--index.wxml-->
+<view class="container">
+  <image class="u-logo" src="https://ysf.qiyukf.net/operation/1d618cc5046ea502010253397c79e675" />
+  <view class="desc">1、在微信小程序后台 - 设置 - 第三方设置 - 插件管理中申请使用七鱼小程序sdk插件，七鱼提供的微信小程序插件名称为 QIYUSDK。</view>
+  <view class="desc">2、七鱼对外提供名字为chat的页面插件，请确保在配置企业appKey后再跳转到chat页面申请客服。</view>
+  <view class="desc">3、引入插件代码包: 使用插件前，使用者要在 app.json 中声明需要使用的插件。</view>
+
+
+  <navigator class="go" url="/pages/qiyu/index">咨询客服</navigator>
+</view>
